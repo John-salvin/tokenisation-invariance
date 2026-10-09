@@ -1,0 +1,688 @@
+% Works whose data, tools or models this repository uses. Entries are copied
+% from the paper's bibliography. Please cite them when you reuse the
+% corresponding parts.
+
+% mt-metrics-eval (WMT human judgements, Apache-2.0): https://github.com/google-research/mt-metrics-eval
+% Aksharamukha (lossy WMT romanisation, Section 6): https://github.com/virtualvinodh/aksharamukha
+
+
+% ---- Data ----
+
+@inproceedings{sai2023indicmt,
+  author    = {Ananya B. Sai and
+               Tanay Dixit and
+               Vignesh Nagarajan and
+               Anoop Kunchukuttan and
+               Pratyush Kumar and
+               Mitesh M. Khapra and
+               Raj Dabre},
+  editor    = {Anna Rogers and
+               Jordan L. Boyd{-}Graber and
+               Naoaki Okazaki},
+  title     = {{IndicMT} {E}val: {A} Dataset to Meta-Evaluate Machine Translation
+               Metrics for {I}ndian Languages},
+  booktitle = {Proceedings of the 61st Annual Meeting of the Association for
+               Computational Linguistics (Volume 1: Long Papers), {ACL} 2023,
+               Toronto, Canada, July 9--14, 2023},
+  pages     = {14210--14228},
+  publisher = {Association for Computational Linguistics},
+  year      = {2023},
+  url       = {https://doi.org/10.18653/v1/2023.acl-long.795},
+  doi       = {10.18653/v1/2023.acl-long.795}
+}
+
+@inproceedings{kocmi-etal-2024-findings,
+  author    = {Tom Kocmi and
+               Eleftherios Avramidis and
+               Rachel Bawden and
+               Ond{\v{r}}ej Bojar and
+               Anton Dvorkovich and
+               Christian Federmann and
+               Mark Fishel and
+               Markus Freitag and
+               Thamme Gowda and
+               Roman Grundkiewicz and
+               Barry Haddow and
+               Marzena Karpinska and
+               Philipp Koehn and
+               Benjamin Marie and
+               Christof Monz and
+               Kenton Murray and
+               Masaaki Nagata and
+               Martin Popel and
+               Maja Popovi{\'{c}} and
+               Mariya Shmatova and
+               Steinth{\'{o}}r Steingr{\'{\i}}msson and
+               Vil{\'{e}}m Zouhar},
+  title     = {Findings of the {WMT}24 General Machine Translation
+               Shared Task: The {LLM} Era Is Here but {MT} Is Not
+               Solved Yet},
+  booktitle = {Proceedings of the Ninth Conference on Machine
+               Translation, {WMT} 2024, Miami, Florida, USA,
+               November 15--16, 2024},
+  pages     = {1--46},
+  publisher = {Association for Computational Linguistics},
+  year      = {2024},
+  url       = {https://aclanthology.org/2024.wmt-1.1/},
+  doi       = {10.18653/v1/2024.wmt-1.1}
+}
+
+@inproceedings{kocmi-etal-2025-findings,
+    title = "Findings of the {WMT}25 General Machine Translation Shared Task: Time to Stop Evaluating on Easy Test Sets",
+    author = "Kocmi, Tom and Artemova, Ekaterina and Avramidis, Eleftherios and
+      Bawden, Rachel and Bojar, Ond{\v{r}}ej and Dranch, Konstantin and
+      Dvorkovich, Anton and Dukanov, Sergey and Fishel, Mark and Freitag, Markus and
+      Gowda, Thamme and Grundkiewicz, Roman and Haddow, Barry and Karpinska, Marzena and
+      Koehn, Philipp and Lakougna, Howard and Lundin, Jessica and Monz, Christof and
+      Murray, Kenton and Nagata, Masaaki and Perrella, Stefano and Proietti, Lorenzo and
+      Popel, Martin and Popovi{\'c}, Maja and Riley, Parker and Shmatova, Mariya and
+      Steingr{\'i}msson, Steinth{\'o}r and Yankovskaya, Lisa and Zouhar, Vil{\'e}m",
+    editor = "Haddow, Barry and Kocmi, Tom and Koehn, Philipp and Monz, Christof",
+    booktitle = "Proceedings of the Tenth Conference on Machine Translation",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.wmt-1.22/",
+    doi = "10.18653/v1/2025.wmt-1.22",
+    pages = "355--413",
+    ISBN = "979-8-89176-341-8"
+}
+
+@inproceedings{freitag-etal-2024-llms,
+  author    = {Markus Freitag and
+               Nitika Mathur and
+               Daniel Deutsch and
+               Chi{-}kiu Lo and
+               Eleftherios Avramidis and
+               Ricardo Rei and
+               Brian Thompson and
+               Frederic Blain and
+               Tom Kocmi and
+               Jiayi Wang and
+               David Ifeoluwa Adelani and
+               Marianna Buchicchio and
+               Chrysoula Zerva and
+               Alon Lavie},
+  title     = {Are {LLM}s Breaking {MT} Metrics? {R}esults of the
+               {WMT}24 Metrics Shared Task},
+  booktitle = {Proceedings of the Ninth Conference on Machine
+               Translation, {WMT} 2024, Miami, Florida, USA,
+               November 15--16, 2024},
+  pages     = {47--81},
+  publisher = {Association for Computational Linguistics},
+  year      = {2024},
+  url       = {https://aclanthology.org/2024.wmt-1.2/},
+  doi       = {10.18653/v1/2024.wmt-1.2}
+}
+
+@inproceedings{kocmi-etal-2024-error,
+  author    = {Tom Kocmi and
+               Vil{\'e}m Zouhar and
+               Eleftherios Avramidis and
+               Roman Grundkiewicz and
+               Marzena Karpinska and
+               Maja Popovi{\'c} and
+               Mrinmaya Sachan and
+               Mariya Shmatova},
+  title     = {Error Span Annotation: A Balanced Approach for Human Evaluation of
+               Machine Translation},
+  booktitle = {Proceedings of the Ninth Conference on Machine Translation},
+  year      = {2024},
+  address   = {Miami, Florida, USA},
+  publisher = {Association for Computational Linguistics}
+}
+
+@article{lommel-etal-2014-mqm,
+  author  = {Lommel, Arle and Uszkoreit, Hans and Burchardt, Aljoscha},
+  title   = {Multidimensional Quality Metrics ({MQM}): A Framework for
+             Declaring and Describing Translation Quality Metrics},
+  journal = {Tradum\`{a}tica: tecnologies de la traducci\'{o}},
+  year    = {2014},
+  number  = {12},
+  pages   = {455--463},
+  doi     = {10.5565/rev/tradumatica.77}
+}
+
+@article{DBLP:journals/tacl/FreitagBBEGMNRR21,
+  author    = {Markus Freitag and
+               George Foster and
+               David Grangier and
+               Viresh Ratnakar and
+               Qijun Tan and
+               Wolfgang Macherey},
+  title     = {Experts, Errors, and Context: {A} Large-Scale Study
+               of Human Evaluation for Machine Translation},
+  journal   = {Transactions of the Association for Computational
+               Linguistics},
+  volume    = {9},
+  pages     = {1460--1474},
+  year      = {2021},
+  url       = {https://aclanthology.org/2021.tacl-1.87/},
+  doi       = {10.1162/tacl_a_00437},
+  biburl    = {https://dblp.org/rec/journals/tacl/FreitagBBEGMNRR21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+% ---- Romanisation and language identification ----
+
+@inproceedings{madhani2023aksharantar,
+    title = "Aksharantar: Open {I}ndic-language Transliteration datasets and models for the Next Billion Users",
+    author = "Madhani, Yash  and
+      Parthan, Sushane  and
+      Bedekar, Priyanka  and
+      Nc, Gokul  and
+      Khapra, Ruchi  and
+      Kunchukuttan, Anoop  and
+      Kumar, Pratyush  and
+      Khapra, Mitesh",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.4/",
+    doi = "10.18653/v1/2023.findings-emnlp.4",
+    pages = "40--57"
+}
+
+@misc{iso15919,
+  author       = {{International Organization for Standardization}},
+  title        = {{ISO} 15919:2001. Information and Documentation: Transliteration
+                  of {Devanagari} and Related {Indic} Scripts into {Latin} Characters},
+  year         = {2001},
+  howpublished = {International standard}
+}
+
+@misc{iso9,
+  author       = {{International Organization for Standardization}},
+  title        = {{ISO} 9:1995. Information and Documentation: Transliteration of
+                  {Cyrillic} Characters into {Latin} Characters, {Slavic} and
+                  Non-{Slavic} Languages},
+  year         = {1995},
+  howpublished = {International standard}
+}
+
+@misc{iso233,
+  author       = {{International Organization for Standardization}},
+  title        = {{ISO} 233:1984. Documentation: Transliteration of {Arabic}
+                  Characters into {Latin} Characters},
+  year         = {1984},
+  howpublished = {International standard}
+}
+
+@inproceedings{kargaran2023glotlid,
+  title     = {{GlotLID}: Language Identification for Low-Resource Languages},
+  author    = {Kargaran, Amir Hossein and Imani, Ayyoob and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
+  year      = {2023}
+}
+
+
+% ---- Metrics ----
+
+@inproceedings{rei-etal-2022-comet22,
+  author    = {Ricardo Rei and
+               Jos{\'{e}} G. C. de Souza and
+               Duarte M. Alves and
+               Chrysoula Zerva and
+               Ana C. Farinha and
+               Taisiya Glushkova and
+               Alon Lavie and
+               Luisa Coheur and
+               Andr{\'{e}} F. T. Martins},
+  title     = {{COMET}-22: Unbabel-{IST} 2022 Submission for the
+               Metrics Shared Task},
+  booktitle = {Proceedings of the Seventh Conference on Machine
+               Translation, {WMT} 2022, Abu Dhabi, United Arab
+               Emirates (Hybrid), December 7--8, 2022},
+  pages     = {578--585},
+  publisher = {Association for Computational Linguistics},
+  year      = {2022},
+  url       = {https://aclanthology.org/2022.wmt-1.52/}
+}
+
+@inproceedings{rei-etal-2022-cometkiwi,
+  author    = {Ricardo Rei and
+               Marcos Treviso and
+               Nuno M. Guerreiro and
+               Chrysoula Zerva and
+               Ana C. Farinha and
+               Christine Maroti and
+               Jos{\'{e}} G. C. de Souza and
+               Taisiya Glushkova and
+               Duarte M. Alves and
+               Luisa Coheur and
+               Alon Lavie and
+               Andr{\'{e}} F. T. Martins},
+  title     = {{CometKiwi}: {IST}-Unbabel 2022 Submission for the
+               Quality Estimation Shared Task},
+  booktitle = {Proceedings of the Seventh Conference on Machine
+               Translation, {WMT} 2022, Abu Dhabi, United Arab
+               Emirates (Hybrid), December 7--8, 2022},
+  pages     = {634--645},
+  publisher = {Association for Computational Linguistics},
+  year      = {2022},
+  url       = {https://aclanthology.org/2022.wmt-1.60/}
+}
+
+@article{guerreiro-etal-2024-xcomet,
+  author  = {Nuno M. Guerreiro and
+             Ricardo Rei and
+             Daan van Stigt and
+             Luisa Coheur and
+             Pierre Colombo and
+             Andr{\'{e}} F. T. Martins},
+  title   = {{xCOMET}: Transparent Machine Translation Evaluation
+             through Fine-grained Error Detection},
+  journal = {Transactions of the Association for Computational
+             Linguistics},
+  volume  = {12},
+  pages   = {979--995},
+  year    = {2024},
+  url     = {https://aclanthology.org/2024.tacl-1.54/},
+  doi     = {10.1162/tacl_a_00683}
+}
+
+@inproceedings{juraska-etal-2024-metricx,
+    title = "{M}etric{X}-24: The {G}oogle Submission to the {WMT} 2024 Metrics Shared Task",
+    author = "Juraska, Juraj  and
+      Deutsch, Daniel  and
+      Finkelstein, Mara  and
+      Freitag, Markus",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Ninth Conference on Machine Translation",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.wmt-1.35/",
+    doi = "10.18653/v1/2024.wmt-1.35",
+    pages = "492--504",
+    abstract = "In this paper, we present the MetricX-24 submissions to the WMT24 Metrics Shared Task and provide details on the improvements we made over the previous version of MetricX. Our primary submission is a hybrid reference-based/-free metric, which can score a translation irrespective of whether it is given the source segment, the reference, or both. The metric is trained on previous WMT data in a two-stage fashion, first on the DA ratings only, then on a mixture of MQM and DA ratings. The training set in both stages is augmented with synthetic examples that we created to make the metric more robust to several common failure modes, such as fluent but unrelated translation, or undertranslation. We demonstrate the benefits of the individual modifications via an ablation study, and show a significant performance increase over MetricX-23 on the WMT23 MQM ratings, as well as our new synthetic challenge set."
+}
+
+@inproceedings{DBLP:conf/acl/SellamDP20,
+  author    = {Thibault Sellam and
+               Dipanjan Das and
+               Ankur P. Parikh},
+  title     = {{BLEURT:} Learning Robust Metrics for Text Generation},
+  booktitle = {Proceedings of the 58th Annual Meeting of the
+               Association for Computational Linguistics, {ACL} 2020,
+               Online, July 5--10, 2020},
+  pages     = {7881--7892},
+  publisher = {Association for Computational Linguistics},
+  year      = {2020},
+  url       = {https://aclanthology.org/2020.acl-main.704/},
+  doi       = {10.18653/v1/2020.acl-main.704},
+  biburl    = {https://dblp.org/rec/conf/acl/SellamDP20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/iclr/ZhangKWWA20,
+  author    = {Tianyi Zhang and
+               Varsha Kishore and
+               Felix Wu and
+               Kilian Q. Weinberger and
+               Yoav Artzi},
+  title     = {{BERTScore}: Evaluating Text Generation with {BERT}},
+  booktitle = {8th International Conference on Learning
+               Representations, {ICLR} 2020, Addis Ababa, Ethiopia,
+               April 26--30, 2020},
+  publisher = {OpenReview.net},
+  year      = {2020},
+  url       = {https://openreview.net/forum?id=SkeHuCVFDr},
+  biburl    = {https://dblp.org/rec/conf/iclr/ZhangKWWA20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/acl/PapineniRWZ02,
+  author    = {Kishore Papineni and
+               Salim Roukos and
+               Todd Ward and
+               Wei{-}Jing Zhu},
+  title     = {{BLEU}: a Method for Automatic Evaluation of Machine
+               Translation},
+  booktitle = {Proceedings of the 40th Annual Meeting of the
+               Association for Computational Linguistics, July 6--12,
+               2002, Philadelphia, PA, {USA}},
+  pages     = {311--318},
+  publisher = {{ACL}},
+  year      = {2002},
+  url       = {https://aclanthology.org/P02-1040/},
+  doi       = {10.3115/1073083.1073135},
+  biburl    = {https://dblp.org/rec/conf/acl/PapineniRWZ02.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/wmt/Popovic15,
+  author    = {Maja Popovi{\'{c}}},
+  title     = {chr{F}: character n-gram {F}-score for automatic {MT}
+               evaluation},
+  booktitle = {Proceedings of the Tenth Workshop on Statistical
+               Machine Translation, {WMT} 2015, Lisbon, Portugal,
+               September 17--18, 2015},
+  pages     = {392--395},
+  publisher = {Association for Computational Linguistics},
+  year      = {2015},
+  url       = {https://aclanthology.org/W15-3049/},
+  doi       = {10.18653/v1/W15-3049},
+  biburl    = {https://dblp.org/rec/conf/wmt/Popovic15.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{snover-etal-2006-ter,
+  author    = {Matthew Snover and
+               Bonnie Dorr and
+               Richard Schwartz and
+               Linnea Micciulla and
+               John Makhoul},
+  title     = {A Study of Translation Edit Rate with Targeted Human
+               Annotation},
+  booktitle = {Proceedings of the 7th Conference of the Association
+               for Machine Translation in the Americas: Technical
+               Papers, {AMTA} 2006, Cambridge, Massachusetts, USA,
+               August 8--12, 2006},
+  pages     = {223--231},
+  publisher = {Association for Machine Translation in the Americas},
+  year      = {2006},
+  url       = {https://aclanthology.org/2006.amta-papers.25/}
+}
+
+@inproceedings{post-2018-call,
+  author    = {Matt Post},
+  title     = {A Call for Clarity in Reporting {BLEU} Scores},
+  booktitle = {Proceedings of the Third Conference on Machine
+               Translation: Research Papers, {WMT} 2018, Brussels,
+               Belgium, October 31--November 1, 2018},
+  pages     = {186--191},
+  publisher = {Association for Computational Linguistics},
+  year      = {2018},
+  url       = {https://aclanthology.org/W18-6319/},
+  doi       = {10.18653/v1/W18-6319}
+}
+
+
+% ---- Encoders and tokenisers ----
+
+@inproceedings{conneau2020unsupervised,
+  author    = {Alexis Conneau and
+               Kartikay Khandelwal and
+               Naman Goyal and
+               Vishrav Chaudhary and
+               Guillaume Wenzek and
+               Francisco Guzm{\'{a}}n and
+               Edouard Grave and
+               Myle Ott and
+               Luke Zettlemoyer and
+               Veselin Stoyanov},
+  title     = {Unsupervised Cross-lingual Representation Learning at Scale},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for
+               Computational Linguistics, {ACL} 2020, Online,
+               July 5--10, 2020},
+  pages     = {8440--8451},
+  publisher = {Association for Computational Linguistics},
+  year      = {2020},
+  url       = {https://aclanthology.org/2020.acl-main.747/},
+  doi       = {10.18653/v1/2020.acl-main.747}
+}
+
+@inproceedings{goyal-etal-2021-larger,
+  author    = {Naman Goyal and
+               Jingfei Du and
+               Myle Ott and
+               Giri Anantharaman and
+               Alexis Conneau},
+  title     = {Larger-Scale Transformers for Multilingual Masked
+               Language Modeling},
+  booktitle = {Proceedings of the 6th Workshop on Representation
+               Learning for {NLP}, RepL4NLP@ACL-IJCNLP 2021, Online,
+               August 6, 2021},
+  pages     = {29--33},
+  publisher = {Association for Computational Linguistics},
+  year      = {2021},
+  url       = {https://aclanthology.org/2021.repl4nlp-1.4/},
+  doi       = {10.18653/v1/2021.repl4nlp-1.4}
+}
+
+@inproceedings{chi-etal-2021-infoxlm,
+  author    = {Zewen Chi and
+               Li Dong and
+               Furu Wei and
+               Nan Yang and
+               Saksham Singhal and
+               Wenhui Wang and
+               Xia Song and
+               Xian{-}Ling Mao and
+               Heyan Huang and
+               Ming Zhou},
+  title     = {{InfoXLM}: An Information-Theoretic Framework for
+               Cross-Lingual Language Model Pre-Training},
+  booktitle = {Proceedings of the 2021 Conference of the North
+               American Chapter of the Association for Computational
+               Linguistics: Human Language Technologies,
+               {NAACL-HLT} 2021, Online, June 6--11, 2021},
+  pages     = {3576--3588},
+  publisher = {Association for Computational Linguistics},
+  year      = {2021},
+  url       = {https://aclanthology.org/2021.naacl-main.280/},
+  doi       = {10.18653/v1/2021.naacl-main.280}
+}
+
+@inproceedings{xue-etal-2021-mt5,
+    title = "m{T}5: A Massively Multilingual Pre-trained Text-to-Text Transformer",
+    author = "Xue, Linting  and
+      Constant, Noah  and
+      Roberts, Adam  and
+      Kale, Mihir  and
+      Al-Rfou, Rami  and
+      Siddhant, Aditya  and
+      Barua, Aditya  and
+      Raffel, Colin",
+    editor = "Toutanova, Kristina  and
+      Rumshisky, Anna  and
+      Zettlemoyer, Luke  and
+      Hakkani-Tur, Dilek  and
+      Beltagy, Iz  and
+      Bethard, Steven  and
+      Cotterell, Ryan  and
+      Chakraborty, Tanmoy  and
+      Zhou, Yichao",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.naacl-main.41/",
+    doi = "10.18653/v1/2021.naacl-main.41",
+    pages = "483--498",
+    abstract = "The recent ``Text-to-Text Transfer Transformer'' (T5) leveraged a unified text-to-text format and scale to attain state-of-the-art results on a wide variety of English-language NLP tasks. In this paper, we introduce mT5, a multilingual variant of T5 that was pre-trained on a new Common Crawl-based dataset covering 101 languages. We detail the design and modified training of mT5 and demonstrate its state-of-the-art performance on many multilingual benchmarks. We also describe a simple technique to prevent ``accidental translation'' in the zero-shot setting, where a generative model chooses to (partially) translate its prediction into the wrong language. All of the code and model checkpoints used in this work are publicly available."
+}
+
+@inproceedings{devlin-etal-2019-bert,
+  author    = {Jacob Devlin and
+               Ming{-}Wei Chang and
+               Kenton Lee and
+               Kristina Toutanova},
+  title     = {{BERT}: Pre-training of Deep Bidirectional
+               Transformers for Language Understanding},
+  booktitle = {Proceedings of the 2019 Conference of the North
+               American Chapter of the Association for Computational
+               Linguistics: Human Language Technologies,
+               {NAACL-HLT} 2019, Minneapolis, MN, USA,
+               June 2--7, 2019 (Volume 1: Long and Short Papers)},
+  pages     = {4171--4186},
+  publisher = {Association for Computational Linguistics},
+  year      = {2019},
+  url       = {https://aclanthology.org/N19-1423/},
+  doi       = {10.18653/v1/N19-1423}
+}
+
+@article{radford-etal-2019-gpt2,
+  author  = {Alec Radford and
+             Jeffrey Wu and
+             Rewon Child and
+             David Luan and
+             Dario Amodei and
+             Ilya Sutskever},
+  title   = {Language Models are Unsupervised Multitask Learners},
+  journal = {OpenAI Technical Report},
+  year    = {2019},
+  url     = {https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}
+}
+
+@article{xue-etal-2022-byt5,
+  author  = {Linting Xue and
+             Aditya Barua and
+             Noah Constant and
+             Rami Al{-}Rfou and
+             Sharan Narang and
+             Mihir Kale and
+             Adam Roberts and
+             Colin Raffel},
+  title   = {{ByT5}: Towards a Token-Free Future with Pre-trained
+             Byte-to-Byte Models},
+  journal = {Transactions of the Association for Computational
+             Linguistics},
+  volume  = {10},
+  pages   = {291--306},
+  year    = {2022},
+  url     = {https://aclanthology.org/2022.tacl-1.17/},
+  doi     = {10.1162/tacl_a_00461}
+}
+
+@inproceedings{kudo-richardson-2018-sentencepiece,
+  author    = {Taku Kudo and John Richardson},
+  title     = {{SentencePiece}: A Simple and Language Independent
+               Subword Tokenizer and Detokenizer for Neural Text
+               Processing},
+  booktitle = {Proceedings of the 2018 Conference on Empirical
+               Methods in Natural Language Processing: System
+               Demonstrations, {EMNLP} 2018, Brussels, Belgium,
+               October 31 -- November 4, 2018},
+  pages     = {66--71},
+  publisher = {Association for Computational Linguistics},
+  year      = {2018},
+  url       = {https://aclanthology.org/D18-2012/},
+  doi       = {10.18653/v1/D18-2012}
+}
+
+@inproceedings{feng2022language,
+    title = "Language-agnostic {BERT} Sentence Embedding",
+    author = "Feng, Fangxiaoyu  and
+      Yang, Yinfei  and
+      Cer, Daniel  and
+      Arivazhagan, Naveen  and
+      Wang, Wei",
+    editor = "Muresan, Smaranda  and
+      Nakov, Preslav  and
+      Villavicencio, Aline",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.62/",
+    doi = "10.18653/v1/2022.acl-long.62",
+    pages = "878--891"
+}
+
+
+% ---- Methods ----
+
+@misc{ghosh2026languagemodels,
+      title={Language Models are not Equally Robust to Non-Canonical Tokenization across Languages},
+      author={Poulami Ghosh and Preethi Jyothi},
+      year={2026},
+      eprint={2607.26831},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2607.26831}
+}
+
+@inproceedings{hu2022lora,
+  author    = {Edward J. Hu and
+               Yelong Shen and
+               Phillip Wallis and
+               Zeyuan Allen{-}Zhu and
+               Yuanzhi Li and
+               Shean Wang and
+               Lu Wang and
+               Weizhu Chen},
+  title     = {{LoRA}: Low-Rank Adaptation of Large Language Models},
+  booktitle = {The Tenth International Conference on Learning Representations,
+               {ICLR} 2022, Virtual Event, April 25--29, 2022},
+  year      = {2022},
+  url       = {https://openreview.net/forum?id=nZeVKeeFYf9}
+}
+
+@inproceedings{deutsch2023ties,
+    title = "Ties Matter: Meta-Evaluating Modern Metrics with Pairwise Accuracy and Tie Calibration",
+    author = "Deutsch, Daniel  and
+      Foster, George  and
+      Freitag, Markus",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.798/",
+    doi = "10.18653/v1/2023.emnlp-main.798",
+    pages = "12914--12929"
+}
+
+@inproceedings{thompson2024spa,
+    title = "Improving Statistical Significance in Human Evaluation of Automatic Metrics via Soft Pairwise Accuracy",
+    author = "Thompson, Brian  and
+      Mathur, Nitika  and
+      Deutsch, Daniel  and
+      Khayrallah, Huda",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Ninth Conference on Machine Translation",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.wmt-1.118/",
+    doi = "10.18653/v1/2024.wmt-1.118",
+    pages = "1222--1234"
+}
+
+@article{meng-etal-1992-comparing,
+  author  = {Xiao{-}Li Meng and
+             Robert Rosenthal and
+             Donald B. Rubin},
+  title   = {Comparing Correlated Correlation Coefficients},
+  journal = {Psychological Bulletin},
+  volume  = {111},
+  number  = {1},
+  pages   = {172--175},
+  year    = {1992},
+  doi     = {10.1037/0033-2909.111.1.172}
+}
+
+@inproceedings{arnett2025morphologically,
+  author    = {Catherine Arnett and
+               Benjamin K. Bergen},
+  title     = {Why Do Language Models Perform Worse for Morphologically Complex Languages?},
+  booktitle = {Proceedings of the 31st International Conference on
+               Computational Linguistics, {COLING} 2025, Abu Dhabi, UAE,
+               January 19--24, 2025},
+  pages     = {6607--6623},
+  publisher = {Association for Computational Linguistics},
+  year      = {2025},
+  url       = {https://aclanthology.org/2025.coling-main.441/}
+}

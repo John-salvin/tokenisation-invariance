@@ -1,0 +1,11 @@
+lang,condition,n_segments,n_chrf_over_100,pct_chrf_over_100,max_chrf,min_chrf
+guj,native,1400,0,0.0,100.0,6.35
+guj,romanised,1400,0,0.0,100.0,14.1307
+hin,native,1400,0,0.0,100.0,5.824626195
+hin,romanised,1400,0,0.0,100.0,11.1381
+mal,native,1400,0,0.0,100.0,8.1
+mal,romanised,1400,0,0.0,100.0,10.5929
+mar,native,1400,0,0.0,100.0,4.179364398
+mar,romanised,1400,0,0.0,100.0,5.8199
+tam,native,1400,37,2.642857142857143,361.11,0.0
+tam,romanised,1400,0,0.0,100.0,1.4597

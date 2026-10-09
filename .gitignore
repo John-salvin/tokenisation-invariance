@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.venv-gpu/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Executed notebook copies (the committed notebooks stay output-free)
+results/logs/executed/
+
+# Adapters downloaded by scripts/download_adapters.py
+artifacts/
+
+# Local maintainer files, not part of the release
+dev/

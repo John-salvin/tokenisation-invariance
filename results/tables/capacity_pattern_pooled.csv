@@ -1,0 +1,4 @@
+metric,mean_degradation_abs_rho,mean_relative_degradation,capacity_b_params,monotonic_abs_pooled,monotonic_rel_pooled
+COMET-22,0.24543351534887559,0.44273568749375236,0.56,True,True
+xCOMET-XL,0.3569765113909641,0.5899734550895762,3.5,True,True
+xCOMET-XXL,0.5197526922826821,0.7061451184444578,10.7,True,True

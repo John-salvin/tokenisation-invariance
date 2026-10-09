@@ -1,0 +1,6 @@
+lang,rho,ci_lo,ci_hi,excl0
+guj,0.429,-0.857,0.912,False
+tam,0.714,-0.215,0.952,False
+mal,0.976,0.619,1.0,True
+mar,0.452,-0.476,0.976,False
+hin,0.976,0.262,1.0,True
