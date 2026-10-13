@@ -1,0 +1,5 @@
+variant,spearman,pearson,spearman_gain_over_before,pearson_gain_over_before
+before (raw),0.3001618846121502,0.32419172299116517,0.0,0.0
+condition-offset-only QN (per-language native ref),0.3878401145414325,0.37236064012316417,0.08767822992928231,0.048168917131999
+"language-offset-only QN (global pooled-native ref, within-lang ranks preserved)",0.3480080339332329,0.35939693895757097,0.047846149321082665,0.0352052159664058
+"full QN (both offsets removed, published)",0.3985712445332308,0.4002914098294163,0.09840935992108057,0.07609968683825113

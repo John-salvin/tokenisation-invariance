@@ -1,0 +1,10 @@
+script,vocab_tokens,multi_char_tokens,mean_token_len,pct_multi_char,pct_single_char
+Han,17138,9419,1.69,55.0,45.0
+Kana,2114,1937,3.4,91.6,8.4
+Hangul,5373,3265,1.84,60.8,39.2
+Arabic,14639,14384,4.22,98.3,1.7
+Cyrillic,31671,31450,5.78,99.3,0.7
+Devanagari,7726,7579,4.39,98.1,1.9
+Gujarati,2265,2146,3.64,94.7,5.3
+Tamil,2628,2545,4.89,96.8,3.2
+Latin,109442,109338,5.88,99.9,0.1

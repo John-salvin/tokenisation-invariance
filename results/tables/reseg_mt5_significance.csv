@@ -1,0 +1,6 @@
+lang,spearman_ratio_vs_abs_rho,n_buckets,exact_permutation_p,significant_at_05
+guj,-0.8214285714285714,7,0.0341,True
+hin,-0.7857142857142857,8,0.0279,True
+mal,-0.7380952380952381,8,0.0458,True
+tam,-0.4523809523809524,8,0.2675,False
+mar,-0.14285714285714285,8,0.752,False

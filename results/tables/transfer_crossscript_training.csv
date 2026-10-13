@@ -1,0 +1,4 @@
+setting,base600_canonical,base600_last,zeroshot_last,zeroshot_repair,crossfix_canonical,crossfix_last,crossfix_repair,crossfix_canonical_change,crossfix_monotonicity,crossfix_exact_p,crossfix_boot_ci_lo,crossfix_boot_ci_hi,n_segments
+en-ru_RU,0.295,0.06,0.361,0.301,0.311,0.258,0.198,0.016,-0.81,0.022,-1.0,0.87,93
+en-ar_EG,0.353,-0.408,-0.009,0.399,0.204,-0.063,0.345,-0.149,-0.905,0.005,-0.976,-0.262,83
+en-cs_CZ,0.311,-0.061,0.139,0.2,0.239,0.159,0.22,-0.072,-0.857,0.011,-0.976,0.441,75

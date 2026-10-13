@@ -1,0 +1,9 @@
+lang,pair,system_file,n_lines,roundtrip_ok_of_60
+zh,en-zh_CN,Algharb.txt,60,0
+ja,en-ja_JP,Algharb.txt,60,14
+ko,en-ko_KR,Algharb.txt,60,50
+cs,en-cs_CZ,Algharb.txt,60,49
+ru,en-ru_RU,Algharb.txt,60,58
+uk,en-uk_UA,Algharb.txt,60,58
+bho,en-bho_IN,Algharb.txt,60,58
+ar,en-ar_EG,Algharb.txt,60,60

@@ -1,0 +1,5 @@
+tokeniser,vocab_size
+xlmr,250002
+mbert,119547
+mt5,250100
+rembert,250300

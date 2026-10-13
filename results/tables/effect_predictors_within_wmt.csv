@@ -1,0 +1,9 @@
+outcome,predictor,n_settings,rho,ci_lo,ci_hi,excludes_zero,perm_p,subset
+agreement_drop,fertility,13,0.2087912087912088,-0.44327545708481464,0.7437472303114712,False,0.4993,WMT ESA settings (exploratory)
+agreement_drop,token_parity,13,-0.04395604395604396,-0.6122197909634769,0.5616286677739188,False,0.8892,WMT ESA settings (exploratory)
+agreement_drop,canonical_agreement,13,0.510989010989011,-0.06160648826979472,0.8947822141560796,False,0.0796,WMT ESA settings (exploratory)
+agreement_drop,headroom,13,-0.4340659340659341,-0.8611350574712644,0.22728535353535345,False,0.1359,WMT ESA settings (exploratory)
+monotonicity_rho,fertility,13,-0.463752287127712,-0.9009798322192282,0.14439012962780015,False,0.1106,WMT ESA settings (exploratory)
+monotonicity_rho,token_parity,13,0.07263590039349706,-0.5659639362258162,0.7290704868967404,False,0.8136,WMT ESA settings (exploratory)
+monotonicity_rho,canonical_agreement,13,-0.15644655469368596,-0.6479217014182832,0.4417302059381746,False,0.6181,WMT ESA settings (exploratory)
+monotonicity_rho,headroom,13,0.13409704688030225,-0.5666891904193126,0.6091465565002877,False,0.6602,WMT ESA settings (exploratory)

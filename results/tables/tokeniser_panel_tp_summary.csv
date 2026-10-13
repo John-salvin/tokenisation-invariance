@@ -1,0 +1,6 @@
+tokeniser,tp_native_mean,tp_romanised_mean,pct_change_mean,tp_native_max
+xlmr,1.27,1.83,44.5,1.4
+mt5,1.42,1.66,20.5,1.7
+mbert,2.09,2.02,-1.8,2.4
+byt5,2.69,1.21,-54.9,3.0
+gpt2,11.14,2.6,-75.5,14.7

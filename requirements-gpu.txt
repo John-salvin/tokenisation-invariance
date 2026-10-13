@@ -1,0 +1,15 @@
+# The GPU code in experiments/: metric scoring, probes and adapter training.
+# Installs on top of requirements.txt.
+#
+# The committed files were produced with torch 2.10.0 (CUDA 12.8),
+# unbabel-comet 2.2.6 and transformers 4.40.2 on H100 GPUs. COMET-family
+# scores agree across torch versions and GPUs to floating-point noise, not
+# bit-for-bit (within 1e-5 in our checks).
+-r requirements.txt
+torch>=2.4
+unbabel-comet==2.2.6
+setuptools<81                       # comet 2.2.6 (via torchmetrics) imports pkg_resources
+aksharamukha==2.3
+jiwer==4.0.0
+rapidfuzz==3.13.0
+ai4bharat-transliteration==0.5.0.3  # IndicXlit, only for the romanisation notebook
